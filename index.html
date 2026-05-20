@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aghna Damarula Prianta | Network Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">&lt;&gt;</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="hero" id="hero">
+    <canvas id="particleCanvas"></canvas>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-greeting">&gt; Hello, I'm</p>
+      <h1 class="hero-name">Aghna Damarula Prianta</h1>
+      <p class="hero-tagline">Network Engineer</p>
+      <p class="hero-typing">
+        <span class="typing-prefix">$</span>
+        <span class="typing-text" id="typingText"></span>
+        <span class="typing-cursor">|</span>
+      </p>
+      <div class="hero-cta">
+        <a href="#experience" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section about" id="about">
+    <div class="container">
+      <h2 class="section-title reveal"><span class="section-num">01.</span> About Me</h2>
+      <div class="about-grid">
+        <div class="about-image reveal">
+          <div class="about-image-wrapper">
+            <img src="assets/photo-profile.jpeg" alt="Aghna Damarula Prianta" class="profile-photo">
+            <div class="about-image-border"></div>
+          </div>
+        </div>
+        <div class="about-content reveal">
+          <h3>Network Engineer <span class="highlight">&amp;</span> MikroTik Specialist </h3>
+          <p class="about-bio">
+            Enthusiast Network Engineer, passionate about configuring servers, networking, and technology.
+            Born in Bekasi, June 14, 2004 — currently active as an Assistant Lecturer at 
+            <span class="highlight">Politeknik IDN Bogor</span>.
+          </p>
+          <div class="about-details">
+            <div class="detail-item">
+              <span class="detail-label">Name</span>
+              <span class="detail-value">Aghna Damarula Prianta</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Call me</span>
+              <span class="detail-value">Ben</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Role</span>
+              <span class="detail-value">Network Engineer</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Based in</span>
+              <span class="detail-value">Bogor, Indonesia</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section experience" id="experience">
+    <div class="container">
+      <h2 class="section-title reveal"><span class="section-num">02.</span> Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2022</div>
+          <div class="timeline-card">
+            <div class="timeline-card-header">
+              <h3>Network Technician</h3>
+              <span class="timeline-company">HSP NET</span>
+              <span class="timeline-location">Jakarta Timur</span>
+            </div>
+            <div class="timeline-card-body">
+              <p>4 months internship — installing backbone cable 48 cores 2km, access point deployment, FTTH maintenance, server traffic monitoring.</p>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2023 – 2024</div>
+          <div class="timeline-card">
+            <div class="timeline-card-header">
+              <h3>Network Engineer</h3>
+              <span class="timeline-company">Razanet</span>
+              <span class="timeline-location">Bekasi, Cibitung</span>
+            </div>
+            <div class="timeline-card-body">
+              <p>1 year — backbone cable spanning 7 countries, FTTH maintenance, OLT Huawei SmartAX MA5800 configuration, load balancing, failover system implementation.</p>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Present</div>
+          <div class="timeline-card">
+            <div class="timeline-card-header">
+              <h3>Assistant Lecturer</h3>
+              <span class="timeline-company">Politeknik IDN Bogor</span>
+              <span class="timeline-location">Bogor</span>
+            </div>
+            <div class="timeline-card-body">
+              <p>Currently active — assisting lectures, guiding students in networking and server configuration labs.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section achievements" id="achievements">
+    <div class="container">
+      <h2 class="section-title reveal"><span class="section-num">03.</span> Certifications</h2>
+      <div class="achievements-grid">
+        <div class="achievement-card reveal">
+          <div class="achievement-image">
+            <img src="assets/MTCNA.jpg" alt="MTCNA Certificate" draggable="false">
+          </div>
+          <div class="achievement-body">
+            <h3>MTCNA</h3>
+            <p>MikroTik Certified Network Associate</p>
+            <span class="achievement-date">2024 – 2027</span>
+          </div>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="achievement-image">
+            <img src="assets/MTCRE.jpg" alt="MTCRE Certificate" draggable="false">
+          </div>
+          <div class="achievement-body">
+            <h3>MTCRE</h3>
+            <p>MikroTik Certified Routing Engineer</p>
+            <span class="achievement-date">2024 – 2027</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section projects" id="projects">
+    <div class="container">
+      <h2 class="section-title reveal"><span class="section-num">04.</span> Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card reveal">
+          <div class="project-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 6v12M6 12h12"/></svg>
+          </div>
+          <h3>"Jago BGP dalam Sehari"</h3>
+          <p class="project-sub">Book — Final Project at Politeknik IDN</p>
+          <p>A comprehensive guide to mastering BGP routing in one day. Covers basic to advanced BGP configurations.</p>
+        </div>
+        <div class="project-card reveal">
+          <div class="project-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 6v12M6 12h12"/></svg>
+          </div>
+          <h3>"SUPERLAB REALITA"</h3>
+          <p class="project-sub">Book — Final Project at Politeknik IDN Bogor</p>
+          <p>Hands-on networking lab scenarios for real-world practice. Designed for students and professionals.</p>
+        </div>
+        <div class="project-card reveal">
+          <div class="project-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/></svg>
+          </div>
+          <h3>MAZNET</h3>
+          <p class="project-sub">ISP Business — May 2024 – Now</p>
+          <p>150+ FTTH clients, registered with Kominfo via HSP NET, monitoring CHR MikroTik, expansion to 3 locations.</p>
+        </div>
+        <div class="project-card reveal">
+          <div class="project-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 3v2m6-2v2M9 19v2m6-2v2M5 17H3m2-4H3m2-4H3m2-4H3m16 12h-2m2-4h-2m2-4h-2m2-4h-2M5 17h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
+          </div>
+          <h3>PERURI — Badan Gizi Nasional</h3>
+          <p class="project-sub">Network Setup — 3500 RUTX11</p>
+          <p>Configuration and deployment of 3500 RUTX11 nodes for Badan Gizi Nasional infrastructure.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-info reveal">
+          <h3 class="footer-logo">&lt;Ben /&gt;</h3>
+          <p>Network Engineer passionate about building and optimizing network infrastructure.</p>
+        </div>
+        <div class="footer-links reveal">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#achievements">Certifications</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact reveal">
+          <h4>Contact</h4>
+          <ul class="contact-list">
+            <li>
+              <a href="mailto:aghnadamrulaprianta@gmail.com" class="contact-link">
+                <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                <span>aghnadamrulaprianta@gmail.com</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Bensiddd" target="_blank" rel="noopener" class="contact-link">
+                <svg class="contact-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.73.083-.73 1.205.085 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12"/></svg>
+                <span>github.com/Bensiddd</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://instagram.com/bens.id" target="_blank" rel="noopener" class="contact-link">
+                <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                <span>@bens.id</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Aghna Damarula Prianta. Built with &lt;/&gt;</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose">&times;</button>
+    <img class="lightbox-img" id="lightboxImg" src="" alt="">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

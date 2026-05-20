@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <rect width="200" height="200" rx="100" fill="#1a1a2e"/>
+  <circle cx="100" cy="80" r="35" fill="#dc2626" opacity="0.3"/>
+  <circle cx="100" cy="80" r="25" fill="#dc2626" opacity="0.6"/>
+  <circle cx="100" cy="80" r="15" fill="#dc2626"/>
+  <path d="M50 180 Q75 130 100 120 Q125 130 150 180" fill="#dc2626" opacity="0.3"/>
+  <path d="M60 180 Q80 140 100 130 Q120 140 140 180" fill="#dc2626" opacity="0.6"/>
+  <text x="100" y="185" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="12" opacity="0.5">PHOTO</text>
+</svg>
