@@ -79,7 +79,7 @@ A single-page **portfolio website** built with pure HTML, CSS, and JavaScript �
 │                                              │
 │   Design                                     │
 │   ├── Google Fonts: Inter + Space Grotesk    │
-│   ├── Color: #0a0a0f, #dc2626, #991b1b      │
+│   ├── Color: #0a0a0f, #dc2626, #991b1b       │
 │   └── Icons: Inline SVG                      │
 │                                              │
 └──────────────────────────────────────────────┘
